@@ -1,0 +1,46 @@
+.header {
+    background-color: rgb(255, 74, 74);
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.headerlink {
+    background-color: rgb(78, 78, 255);
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+}
+
+.card {
+    background-color: rgb(255, 189, 90);
+    border-radius: 20px;
+    margin-left: 10px;
+    height: 200px;
+    flex: 1;
+    transition: .3s all ease;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 200px;
+}
+
+.card:hover {
+    flex: 2;
+    background-color: rgb(78, 78, 255);
+}
+
+* {
+    background-color: rgb(255, 255, 255);
+}
+
+img {
+    width: 475px;
+    height: 300px;
+}
